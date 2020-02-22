@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About Me
+        </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="address.html">Address</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about-html.html">About HTML</a></li>
+                <li class="topnav-right"><a href="#">Sign up</a></li>
+                <li class="topnav-right"><a href="#">Sign in</a></li>
+                <li class="dropdown"><a href="javaScript:void(0);" 
+                    onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="image-set">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-header"> 
+                            <h1>ABOUT ME</h1>
+                            <!-- <br> -->
+                            <h3>VIKASH UPADHYAY</h3>
+                            <!-- ABOUT ME <BR>VIKASH UPADHYAY</BR> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5">
+                    <p class="details">
+                        <br>
+                        <h1 class="detail-1">VIKASH UPADHYAY</h1>
+                        <h2 class="detail-2">STUDENT</h2>    
+                    </p>
+                    <br><br>
+                    <p class="content">
+                        Hey, there, I'm Vikash Upadhyay from Gurugram, Haryana. 
+                        I born in a village Bhalai, situated in Mathura, Uttar Pardesh.
+                        I am a student of Indian Institute of Information Technology, Kota (IIIT KOTA), 
+                        currently running in MNIT Campus, Jaipur, Rajasthan. 
+                        I am doing my Bachalor in Technology (B-Tech) in Electronics and Communication 
+                        Engineering (ECE) branch in the batch of 2019 to 2023. Before this, My Qualification are given below: 
+                        
+                        <p class="qualification">
+                            <br>
+                            In 2019: I have Qualified JEE MAIN and JEE ADVANCED. <br><br>
+
+                            In 2018: I have done my Intermediate Education i.e 12<sup>th</sup> Std from <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Ajanta Public School, Gurugram, Haryana, 122001. <br><br>
+
+                            In 2016: I have done my High  School Education i.e 10<sup>th</sup> Std from <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Radiant Stars English School, Aligarh, Uttar Pradesh. <br><br>
+
+                            In 2016: I have done my Basic  School Education i.e 8<sup>th</sup> Std from <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Prakash Convent School, Iglas, Aligarh, Uttar Pradesh.
+                        </p>
+                        
+                        <!-- <pre class="qualification">
+
+In 2019: I have Qualified JEE MAIN and JEE ADVANCED.
+
+In 2018: I have done my Intermediate Education i.e 12<sup>th</sup> Std from 
+         Ajanta Public School, Gurugram, Haryana, 122001.
+
+In 2016: I have done my High  School Education i.e 10<sup>th</sup> Std from 
+         Radiant Stars English School, Aligarh, Uttar Pradesh.
+
+In 2016: I have done my Basic  School Education i.e 8<sup>th</sup> Std from 
+         Prakash Convent School, Iglas, Aligarh, Uttar Pradesh.
+                        </pre> -->
+                    </p>
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="image-profile">
+                                <img src="Vikash_photo.jpeg" alt="Profile Photo" align="center">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box">
+                                <div class="connect-place-main">
+                                    LET'S CONNECT
+                                </div>
+                                <!-- Add font awesome icons -->
+                                <a href="https://www.facebook.com/vikash19upadhyay" class="fa fa-facebook" target="_blank"></a>
+                                <a href="https://twitter.com/Vikas19Upadhyay" class="fa fa-twitter" target="_blank"></a>
+                                <a href="https://www.instagram.com/_vikash_upadhyay/" class="fa fa-instagram" target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/vikash-upadhyay-476952190/" class="fa fa-linkedin" target="_blank"></a>
+                                <a href="https://in.pinterest.com/vikashup/" class="fa fa-pinterest" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <footer class="footsy">
+                <p class="footer">
+                    Copyright &#169; 2020 Vikash Inc. All  right Reserved.
+                </p>
+            </footer>
+        </div>
+
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                    // changing ul class name from "topnav" to "topnav.responsive"
+                } else {
+                    x.className = "topnav";
+                }
+                    
+            }
+        </script>
+
+
+    </body>
+</html>

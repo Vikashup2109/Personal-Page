@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Address
+        </title>
+        <link rel="stylesheet" href="address.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="address.html">Address</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about-html.html">About HTML</a></li>
+                <li class="topnav-right"><a href="#">Sign up</a></li>
+                <li class="topnav-right"><a href="#">Sign in</a></li>
+                <li class="dropdown"><a href="javaScript:void(0);" 
+                    onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="image-set">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-header"> 
+                            <h1>ADDRESS</h1>
+                             <h3>VIKASH UPADHYAY</h3>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="table">
+            <table border="1" align="center" class="address">
+                <tr>
+                    <td class="disp-cell">My Communication Address</td>
+                    <td class="ad-cell">Room No. 293, Ganga Hostel, Aurbindo Hostel Road, Near VLTC, 
+                        MNIT  Campus, <br> Jawahar Lal  Nehru Marg, 
+                        Malviya Nagar, Jaipur, Rajasthan, 302017</td>
+                </tr>
+                <tr>
+                    <td class="disp-cell"> See On Google Maps</td>
+                    <td class="map-cell">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2703.9427060679923!2d75.81526726522597!3d26.863753868541256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1023bdda2b9cf1ff!2sGanga%20hostel!5e1!3m2!1sen!2sin!4v1582301098691!5m2!1sen!2sin" width="690" height="470" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div>
+            <footer class="footsy">
+                <p class="footer">
+                    Copyright &#169; 2020 Vikash Inc. All  right Reserved.
+                </p>
+            </footer>
+        </div>
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                    // changing ul class name from "topnav" to "topnav.responsive"
+                } else {
+                    x.className = "topnav";
+                }
+                    
+            }
+        </script>
+
+    </body>
+</html>

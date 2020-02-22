@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Projects
+        </title>
+        <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="address.html">Address</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about-html.html">About HTML</a></li>
+                <li class="topnav-right"><a href="#">Sign up</a></li>
+                <li class="topnav-right"><a href="#">Sign in</a></li>
+                <li class="dropdown"><a href="javaScript:void(0);" 
+                    onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="image-set">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-header"> 
+                            <h1>PROJECTS</h1>
+                             <h3>VIKASH UPADHYAY</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="table">
+                <table class="projects" align="center">
+                    <tr class="main-tr">
+                        <td>Project No.</td>
+                        <td>Project Description</td>
+                    </tr>
+                    <tr class="child-even">
+                        <td class="first-col"> 1. </td>
+                        <td> "Made a Obstacle Detector as a project with my team in ITW Lab."</td>
+                    </tr>
+                    <tr>
+                        <td class="first-col"> 2. </td>
+                        <td>"Made a App Based Project containing the Live Information about Pollution in terms of Air Quality Index (AQI) in main cities of India."</td>
+                    </tr>
+                    <tr class="child-even">
+                        <td class="first-col"> 3. </td>
+                        <td>"Making a Smart Voting System using Face Recognition as a Independent Project Using Python and MATLAB (Simulations)."</td>
+                    </tr>
+                    <tr>
+                        <td class="first-col"> 4. </td>
+                        <td> "Making a Website about myself using WEB DEVELOPMENT tools."</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div>
+                <footer class="footsy">
+                    <p class="footer">
+                        Copyright &#169; 2020 Vikash Inc. All  right Reserved.
+                    </p>
+                </footer>
+            </div>
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                    // changing ul class name from "topnav" to "topnav.responsive"
+                } else {
+                    x.className = "topnav";
+                }
+                    
+            }
+        </script>
+
+    </body>
+</html>
